@@ -1,7 +1,31 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\Locations\FarmFields.png" />
+    <None Remove="images\Locations\Farmhouse.png" />
+    <None Remove="images\Locations\HerbalistsGarden.png" />
+    <None Remove="images\Locations\HerbalistsHut.png" />
+    <None Remove="images\Locations\Home.png" />
+    <None Remove="images\Locations\SpiderForest.png" />
+    <None Remove="images\Locations\TownGate.png" />
+    <None Remove="images\Locations\TownSquare.png" />
+    <None Remove="images\Locations\Trader.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\Locations\FarmFields.png" />
+    <Resource Include="images\Locations\Farmhouse.png" />
+    <Resource Include="images\Locations\HerbalistsGarden.png" />
+    <Resource Include="images\Locations\HerbalistsHut.png" />
+    <Resource Include="images\Locations\Home.png" />
+    <Resource Include="images\Locations\SpiderForest.png" />
+    <Resource Include="images\Locations\TownGate.png" />
+    <Resource Include="images\Locations\TownSquare.png" />
+    <Resource Include="images\Locations\Trader.png" />
+  </ItemGroup>
 
 </Project>
